@@ -19,7 +19,7 @@ public class DoctorController {
 	String saveDoctor(@RequestBody Doctor d)
 	{
 		doctorService.saveDoctor(d);
-		return "Doctor Saved";
+		return "Doctor Added";
 
 }
 	@GetMapping("Doctors")
